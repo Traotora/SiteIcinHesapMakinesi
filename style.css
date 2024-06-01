@@ -1,0 +1,63 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+.calculator {
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 3.5rem rgba(0, 0, 0, 0.2);
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 8rem;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    padding: 1rem 1.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-size: 3.2rem;
+}
+
+.button {
+    height: 6rem;
+    width: 25%;
+    border: 0.1rem solid #d4d4d2;
+    background: white;
+    font-size: 2.4rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:active {
+    background: #d4d4d2;
+}
+
+.operator {
+    background: #f9a825;
+}
+
+.equal-sign {
+    height: calc(2 * 6rem);
+}
+
+.all-clear {
+    background: #f9a825;
+}
+
+.calculator-keys {
+    display: flex;
+    flex-wrap: wrap;
+}
