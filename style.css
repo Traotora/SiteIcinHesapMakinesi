@@ -19,8 +19,8 @@ body {
 }
 
 .calculator-screen {
-    width: 100%;
-    height: 8rem;
+    width: 89.25%; /* 100 olduğunda taşıyor.*/
+    height: 5rem; /*İlk başta 8 yapmıştım ama çok uzunduruyordu.*/
     border: none;
     background-color: #252525;
     color: #fff;
